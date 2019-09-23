@@ -138,9 +138,13 @@ int main(int argc, char *argv[])
 	string_ueg();
 	printf("Calling string_leg\n");
 	string_leg();
+	printf("Calling show_short\n");
 	show_short(358);
-	show_long(274 877 906 944); 
-	show_double(3.1415926535)
+	printf("Calling show_long\n");
+	show_long(274877906944); 
+	printf("Calling show_double\n");
+	show_double(3.1415926535);
+
     }
     return 0;
 }
