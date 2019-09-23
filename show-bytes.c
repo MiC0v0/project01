@@ -32,11 +32,11 @@ void show_short(short x){
     show_bytes((byte_pointer) &x, sizeof(short));
 }
 
-void show_short(long x){
+void show_long(long x){
     show_bytes((byte_pointer) &x, sizeof(long));
 }
 
-void show_short(double x){
+void show_double(double x){
     show_bytes((byte_pointer) &x, sizeof(double));
 }
 /* $end show-bytes */
